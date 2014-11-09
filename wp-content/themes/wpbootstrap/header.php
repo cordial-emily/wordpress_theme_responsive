@@ -34,7 +34,6 @@
 
         </ul>
       </div><!--/.nav-collapse -->
-      
     </div><!--/.container-fluid -->
   </nav>
 
