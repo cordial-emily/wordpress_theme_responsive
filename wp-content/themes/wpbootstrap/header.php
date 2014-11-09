@@ -13,27 +13,29 @@
 
     <?php wp_enqueue_script("jquery"); ?>
     <?php wp_head(); ?>
-  </head>
-  <body>
+</head>
+<body>
 
-  <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-      <div class="container">
-        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-        </a>
-        <a class="brand" href="<?php echo site_url(); ?>"><?php bloginfo('name'); ?></a>
-        <div class="nav-collapse collapse">
-          <ul class="nav">
+        </button>
+        <a class="navbar-brand" href="<?php echo site_url(); ?>"><?php bloginfo('name'); ?></a>
+      </div><!--navbar-header-->
 
-              <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)); ?>
+      <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
 
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-  </div>
+            <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)); ?>
+
+        </ul>
+      </div><!--/.nav-collapse -->
+      
+    </div><!--/.container-fluid -->
+  </nav>
 
   <div class="container">
