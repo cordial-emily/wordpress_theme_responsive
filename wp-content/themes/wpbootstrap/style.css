@@ -20,6 +20,6 @@ This simple theme was built using the example Bootstrap theme "Basic marketing s
 @import url('bootstrap/css/bootstrap.css.map');
 @import url('bootstrap/css/bootstrap.min.css'); 
 body { 
-     padding-top: 60px; 
+     padding-top: 0px; 
      padding-bottom: 40px; 
 }
