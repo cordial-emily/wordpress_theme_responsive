@@ -3,7 +3,12 @@
 <hr>
 
       <footer>
-        <p>© Company 2014</p>
+
+      	<cite>
+      	&copy; <?php echo date 
+      	('Y'); ?><a href="<?php bloginfo('url');?><?php bloginfo('name'); ?>"</a>
+        </cite>
+        
       </footer>
 
     </div> <!-- /container -->

@@ -7,7 +7,8 @@ function wpbootstrap_scripts_with_jquery()
 	// For either a plugin or a theme, you can then enqueue the script:
 	wp_enqueue_script( 'custom-script' );
 }
-add_action( 'wp_enqueue_scripts', 'wpbootstrap_scripts_with_jquery' );
+add_action( 'wp_enqueue_scripts', 'wpbootstrap_scripts_with_jquery', 'widgets_init', 'my_sidebar' );
+
 
 if ( function_exists('register_sidebar') )
 	register_sidebar(array(
@@ -15,6 +16,8 @@ if ( function_exists('register_sidebar') )
 		'after_widget' => '',
 		'before_title' => '<h3>',
 		'after_title' => '</h3>',
+        'id' =>'primary',
+        'name' => -( 'Primary' ),
 	));
 
 ?>

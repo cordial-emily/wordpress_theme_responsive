@@ -1,16 +1,12 @@
 /*
-Theme Name: WP Bootstrap
-Theme URI: http://teamtreehouse.com/wordpress-bootstrap-theme-tutorial
-Description: A demo theme built to accompany the Treehouse blog post <a href="http://teamtreehouse.com/wordpress-bootstrap-theme-tutorial">How to Build a WordPress Theme with Bootstrap</a>.
-Author: Zac Gordon
-Author URI: http://teamtreehouse.com/
+Theme Name: Poetry RLS
+Theme URI: NA
+Description: A theme built for displaying peotry and writing.
+Author: Emily Schleiner
+Author URI: http://cordial-emily.com/
 Version: 1.0
-Tags: responsive, white, bootstrap
+Tags: responsive, bootstrap, writing
 
-License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
-License URI: http://creativecommons.org/licenses/by-sa/3.0/
-
-This simple theme was built using the example Bootstrap theme "Basic marketing site" found on the Bootstrap web site http://twitter.github.com/bootstrap/examples/hero.html
 */
 
 @import url('bootstrap/css/bootstrap-theme.css');
@@ -34,10 +30,15 @@ body {
 	border: 1px solid #ddd;
 	background: white;
 }
-/*footer {
-	position:absolute;
-	bottom:0;
-}*/
+
+.container .jumbotron {
+    padding: 0px;
+    margin-bottom: 0px;
+    color: inherit;
+    background-color: #eee;
+}
+
+
 footer[role="contentinfo"] {
 	border-top: 1px solid #ededed;
 	clear: both;
