@@ -828,7 +828,7 @@ span + .edit-link:before,
 
 .site {
 	/*background-color: #fff;*/
-	max-width: 1260px;
+	/*max-width: 1260px;*/
 	position: relative;
 }
 
@@ -856,7 +856,7 @@ span + .edit-link:before,
 .site-header {
 	background-color: #c3a566;
 	/*background-color: #b8860b;*/
-	max-width: 1260px;
+	/*max-width: 1260px;*/
 	position: relative;
 	width: 100%;
 	z-index: 4;
@@ -931,7 +931,7 @@ span + .edit-link:before,
 }
 
 .search-box {
-	background-color: #41a62a;
+	background-color: #78a3ad;
 	padding: 12px;
 }
 
@@ -2890,6 +2890,10 @@ a.post-thumbnail:hover {
 
 .site-info a:hover {
 	color: #41a62a;
+}
+body #page footer .jumbotron {
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
 }
 
 
