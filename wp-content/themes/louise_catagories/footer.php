@@ -13,6 +13,12 @@
 		</div><!-- #main -->
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
+			<div class="row jumbotron">
+				<h1>Books by Louise Schleiner</h1>
+				<div class="col-xs-4" style="background-color: #444; width: 200px; height: 300px; margin-right: 40px; margin-bottom: 10px;"></div>
+				<div class="col-xs-4" style="background-color: #444; width: 200px; height: 300px; margin-right: 40px; margin-bottom: 10px;"></div>
+				<div class="col-xs-4" style="background-color: #444; width: 200px; height: 300px; margin-right: 40px; margin-bottom: 10px;"></div>
+			</div><!-- .jumbotron -->
 
 			<?php get_sidebar( 'footer' ); ?>
 
