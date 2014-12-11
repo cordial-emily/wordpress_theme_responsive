@@ -887,6 +887,7 @@ span + .edit-link:before,
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
+	text-decoration: none;
 }
 
 /* Search in the header */
@@ -900,6 +901,10 @@ span + .edit-link:before,
 	margin-right: 38px;
 	text-align: center;
 	width: 48px;
+}
+
+#secondary #primary-sidebar #search-2 .search-form label {
+	width: 100%;
 }
 
 .search-toggle:hover,
@@ -1068,6 +1073,7 @@ span + .edit-link:before,
 .hentry {
 	margin: 0 auto 48px;
 	max-width: 672px;
+	font-family: 'Lora', serif;
 }
 
 .site-content .entry-header,
@@ -1076,7 +1082,7 @@ span + .edit-link:before,
 .site-content .entry-meta,
 .page-content {
 	margin: 0 auto;
-	max-width: 800px;
+	max-width: 860px;
 }
 
 .page-content {
@@ -1283,11 +1289,29 @@ a.post-thumbnail:hover {
 .page .entry-content .jumbotron {
 	padding-top: 0px;
     padding-bottom: 0px;
+    z-index: -1;
+	position: relative;
 }
+.intro-info-ls {
+    background: rgb(255, 255, 255); /* Fall-back for browsers that don't support rgba*/
+    background: rgba(255, 255, 255, .6);
+    padding: 35px;
+    margin-top: -120px;
+    z-index: 1060;
+    border: 1px solid #000;
+    font-family: 'Lora', serif;
+}
+.intro-info-ls h2 {
+	font-family: 'IM Fell English SC', serif;
+}
+
 .front-pic {
-	margin-left: -50px;
+	/*margin-left: -50px;
 	margin-right: auto;
-	margin-top: -30px;
+	margin-top: -30px;*/
+	width: 100%;
+    margin-left: 1em;
+    margin-right: auto;
 }
 
 .entry-content h1:first-child,
@@ -2866,7 +2890,8 @@ a.post-thumbnail:hover {
 .site-footer,
 .site-info,
 .site-info a {
-	color: rgba(255, 255, 255, 0.7);
+	color: #4f2432;
+	
 }
 
 .site-footer {
@@ -2889,13 +2914,18 @@ a.post-thumbnail:hover {
 }
 
 .site-info a:hover {
-	color: #41a62a;
+	color: #78a3ad;
+	text-decoration: none;
 }
+
 body #page footer .jumbotron {
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
 }
 
+body #page footer .jumbotron {
+	font-family: 'IM Fell English SC', serif;
+}
 
 /**
  * 9.0 Featured Content
@@ -3492,6 +3522,8 @@ body #page footer .jumbotron {
 
 	.site-info {
 		padding: 15px 30px;
+		font-family: 'Cinzel', serif;
+		color: #4f2432;
 	}
 }
 
