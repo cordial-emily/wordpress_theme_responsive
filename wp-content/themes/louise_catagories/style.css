@@ -1082,7 +1082,7 @@ span + .edit-link:before,
 .site-content .entry-meta,
 .page-content {
 	margin: 0 auto;
-	max-width: 860px;
+	max-width: 800px;
 }
 
 .page-content {
@@ -1287,19 +1287,24 @@ a.post-thumbnail:hover {
 }
 
 .page .entry-content .jumbotron {
-	padding-top: 0px;
-    padding-bottom: 0px;
+	padding-top: 30px;
+	padding-bottom: 10px;
     z-index: -1;
 	position: relative;
+	border: 1px solid #000;
+	border-radius: 10px;
 }
 .intro-info-ls {
     background: rgb(255, 255, 255); /* Fall-back for browsers that don't support rgba*/
     background: rgba(255, 255, 255, .6);
     padding: 35px;
-    margin-top: -120px;
+    margin-top: -10px;
     z-index: 1060;
     border: 1px solid #000;
     font-family: 'Lora', serif;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .intro-info-ls h2 {
 	font-family: 'IM Fell English SC', serif;
@@ -1309,9 +1314,9 @@ a.post-thumbnail:hover {
 	/*margin-left: -50px;
 	margin-right: auto;
 	margin-top: -30px;*/
-	width: 100%;
-    margin-left: 1em;
-    margin-right: auto;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .entry-content h1:first-child,
@@ -2599,6 +2604,14 @@ a.post-thumbnail:hover {
 	margin-bottom: 15px;
 	padding: 10px;
 	border-radius: 10px;
+	background-color: rgba(255, 255, 255, .6);
+}
+#catagories-2 ul li, .cat-item:hover {
+    background-color: #c3a566;
+    color: #ffffff;
+}
+#catagories-2 ul li, .cat-item a:hover {
+	color: #ffffff;
 }
 
 .widget_archive li:first-child,
