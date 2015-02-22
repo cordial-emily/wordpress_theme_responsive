@@ -26,7 +26,9 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	
 	<!-- google fonts -->
-	<link href='http://fonts.googleapis.com/css?family=IM+Fell+English+SC|Lora|Cinzel:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=IM+Fell+English+SC|Lora:400,700|Cinzel:400,700' rel='stylesheet' type='text/css'>
+
+	<!-- css files linked in style.css-->
 	
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
