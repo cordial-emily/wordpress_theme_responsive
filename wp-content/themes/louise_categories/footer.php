@@ -30,13 +30,6 @@
 	</div><!-- #page -->
     
 	<?php wp_footer(); ?>
-	<script type="text/javascript">
-		$(document).ready(function(){
-		    $(".pause-slide").click(function(){
-	        $("#myCarousel").carousel('pause');
-		    });
-		});
-	</script>
 
 </body>
 </html>

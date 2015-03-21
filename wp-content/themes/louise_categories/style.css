@@ -2277,6 +2277,7 @@ a.post-thumbnail:hover {
 	font-family: 'Lora', serif;
 	font-weight: 700;
     font-size: 12px;
+    padding-right: 8px;
 }
 
 .widget a:hover {
@@ -2944,6 +2945,7 @@ body #page footer .jumbotron {
 
 body #page footer .jumbotron {
 	font-family: 'IM Fell English SC', serif;
+	padding-left: 50px;
 }
 
 /**
